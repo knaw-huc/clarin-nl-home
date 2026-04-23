@@ -4,7 +4,7 @@ services:
   web:
     image: nginx
     volumes:
-      - hi-clarin-nl-home-html:/usr/share/nginx/html
+      - clarin-nl-home-html:/usr/share/nginx/html
     networks:
       - traefik-public
     labels:
