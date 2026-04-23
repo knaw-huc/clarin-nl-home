@@ -17,10 +17,10 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - hi-clarin-nl-home-html:/app/repo/html
+      - clarin-nl-home-html:/app/repo/html
 
 volumes:
-  hi-religous-policies-html:
+  clarin-nl-home-html:
 
 networks:
   traefik-public:
